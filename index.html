@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Bluetooth Test Web Page</title>
+
+
+	<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="Styles/styles.css">
+	<script type="text/javascript" src="Scripts/main.js" defer></script>
+	<style type="text/css">
+		/*Insert Stryles/styles.css here*/
+	</style>
+</head>
+<body>
+	<h1> Bluetooth Test </h1>
+	<a email = "adrien.kaczmarek@gmail.com" href=""> Send Values </a>
+	<button id="read"> Read </button>
+	<button id="write"> Write </button>
+	<ul service="51311102-030e-485f-b122-f8f381aa84ed">
+
+		<li characteristic="485f4145-52b9-4644-af1f-7a6b9322490f">
+			<label name="h"> 
+				heure 
+				<input type="number">
+			</label>
+			<input class= "check" type="checkbox">			
+		</li>
+
+		<li characteristic="0a924ca7-87cd-4699-a3bd-abdcd9cf126a">
+			<label name="m">
+				min 
+				<input type="number">
+			</label>
+			<input class= "check" type="checkbox">			
+		</li>
+
+		<li characteristic="8dd6a1b7-bc75-4741-8a26-264af75807de">
+			<label name="s">
+				sec 
+				<input type="number">
+			</label>
+			<input class= "check" type="checkbox">		
+		</li>
+
+	</ul>
+
+
+	<script type="text/javascript">
+		// Insert Scripts/main.js here
+	</script>
+</body>
+</html>
